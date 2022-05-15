@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <section class="ep">
+        <iframe id="idIframe" width="100%" height="1000" src=""></iframe>
+    </section>
+
+
+    <script>
+        var i = 0;
+        var urls = [
+            'https://viewplayer.online/embed/thebigbangtheory/',
+            'https://viewplayer.online/embed/legacies/',
+            'https://viewplayer.online/embed/moon-knight/',
+            'https://viewplayer.online/embed/peakyblinders/',
+        ];
+
+        var iframe = document.getElementById('idIframe');
+        iframe.src = urls[0];
+
+        for(let index = 0; index <= urls.length; index++) {
+        let iframe = document.getElementById('idIframe');
+        iframe.src = urls[index]
+        }
+
+    </script>
+</body>
+</html>

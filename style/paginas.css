@@ -11,7 +11,8 @@ body{
 
 .container{
     max-width: 100%;
-    width: 96%;
+    width: 60%;
+    height: 100px;
     margin: 0 auto;
 }
 
@@ -133,49 +134,10 @@ body{
     position: relative;
 }
 
-.destaque{
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    overflow-x: visible;
-}
-
-.destaques > h3 {
-    color: rgb(169, 169, 169);
-    border-left: 3px solid #6e0b6d;
-    padding-left: 10px;
-    height: 24px;
-}
-
-.paginas{
-    /* width: 100%; */
-    height: 400px;
-    /* background-color: aqua; */
-    margin-top: 20px;
-}
-
-.pagina{
-    width: 230px;
-    height: 100%;
-    /* background-color: red; */
-    display: flex;
-    flex-direction: column;
-    margin-right: 3px;
-    position: relative;
-    right: 119px;
-    top: 23px;
-}
-
-.pagina > img{
-    width: 230px;
-    height: 342px;
-}
-
 .titulo-1-filme{
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    position: relative;
+    top: -189px;
+    left: 241px;
 }
 
 .titulo-1-filme > p{
@@ -192,23 +154,14 @@ body{
 
 .pagina > a{
     margin-left: 26px;
+    position: relative;
+    top: 64px;
 }
 
-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color: rgb(169, 169, 169);
-    background-color: rgba(15,15,15,.9);
-    box-shadow: 0 1px 5px rgba(0,0,0,.4);
-    border-top: 1px solid #000;
-    position: fixed;
-    bottom:0;
-    left:0;
-    width: 100%;
-    padding: 10px;
-    font-size: 10px;
-}
+/* .ep{
+    position: relative;
+    top: 300px;
+} */
 
 @media screen and (max-width: 768px) {
 
@@ -218,6 +171,30 @@ footer{
 
     .mobile{
         display: block;
+    }
+
+    .titulo-1-filme{
+        position: relative;
+        top: -189px;
+        left: 241px;
+    }
+    
+    .titulo-1-filme > p{
+        padding-top: 5px;
+        font-size: 14px;
+        color: rgb(201, 193, 193);
+    }
+    
+    .titulo-1-filme > .p2{
+        padding-top: 5px;
+        font-size: 12px;
+        color: rgb(158, 154, 154);
+    }
+    
+    .pagina > a{
+        margin-left: 26px;
+        position: relative;
+        top: 64px;
     }
 
 
