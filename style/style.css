@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
+    overflow-x: none;
 }
 
 body{
@@ -114,6 +115,7 @@ body{
     cursor: pointer;
 }
 
+
 .-m{
     color: #6e0b60;
     font-size: 40px;
@@ -133,11 +135,17 @@ body{
     position: relative;
 }
 
+.destaques{
+    /* display: inline-block; */
+    height: 10px;
+}
+
 .destaque{
     margin-top: 50px;
     display: flex;
     flex-direction: row;
-    overflow-x: visible;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .destaques > h3 {
@@ -148,27 +156,33 @@ body{
 }
 
 .paginas{
-    /* width: 100%; */
+    /* width: 100%;
     height: 400px;
-    /* background-color: aqua; */
-    margin-top: 20px;
+    background-color: aqua;
+    margin-top: 20px; */
+
 }
 
 .pagina{
-    width: 230px;
+    /* width: 230px; */
     height: 100%;
     /* background-color: red; */
     display: flex;
     flex-direction: column;
     margin-right: 3px;
     position: relative;
-    right: 119px;
+    /* right: 119px; */
     top: 23px;
+    
 }
 
 .pagina > img{
-    width: 230px;
-    height: 342px;
+    width: 180px;
+    height: 278px;
+    /* margin-left: 30px; */
+    margin-right: 30px;
+    margin-top: 30px;
+
 }
 
 .titulo-1-filme{
@@ -194,6 +208,10 @@ body{
     margin-left: 26px;
 }
 
+#idi{
+    display: none;
+}
+
 footer{
     display: flex;
     flex-direction: row;
@@ -202,13 +220,16 @@ footer{
     background-color: rgba(15,15,15,.9);
     box-shadow: 0 1px 5px rgba(0,0,0,.4);
     border-top: 1px solid #000;
+    align-items: flex-end;
     position: fixed;
+    margin-top: 30px;
     bottom:0;
     left:0;
     width: 100%;
     padding: 10px;
     font-size: 10px;
 }
+
 
 @media screen and (max-width: 768px) {
 

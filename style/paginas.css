@@ -158,10 +158,26 @@ body{
     top: 64px;
 }
 
-/* .ep{
-    position: relative;
-    top: 300px;
-} */
+
+
+#div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: none;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+}
+
+section > h2{
+    background-color: bisque;
+    justify-content: center;
+    padding: 10px;
+}
 
 @media screen and (max-width: 768px) {
 

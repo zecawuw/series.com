@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #131313;
+}
+
+.construcao{
+    margin-top: 300px;
+    color: #6e0b60;
+}
