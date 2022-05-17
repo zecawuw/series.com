@@ -135,36 +135,28 @@ body{
     position: relative;
 }
 
-.destaques{
-    /* display: inline-block; */
-    height: 10px;
-}
-
 .destaque{
-    margin-top: 50px;
+    margin-top: 5px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
+    margin-bottom: 150px;
 }
 
-.destaques > h3 {
+
+
+.destaques{
     color: rgb(169, 169, 169);
     border-left: 3px solid #6e0b6d;
     padding-left: 10px;
     height: 24px;
-}
-
-.paginas{
-    /* width: 100%;
-    height: 400px;
-    background-color: aqua;
-    margin-top: 20px; */
-
+    margin-top: 75px;
+    margin-left: 26px;
 }
 
 .pagina{
-    /* width: 230px; */
+    width: 230px;
     height: 100%;
     /* background-color: red; */
     display: flex;
@@ -179,7 +171,7 @@ body{
 .pagina > img{
     width: 180px;
     height: 278px;
-    /* margin-left: 30px; */
+    margin-left: 30px;
     margin-right: 30px;
     margin-top: 30px;
 
@@ -221,7 +213,6 @@ footer{
     box-shadow: 0 1px 5px rgba(0,0,0,.4);
     border-top: 1px solid #000;
     align-items: flex-end;
-    position: fixed;
     margin-top: 30px;
     bottom:0;
     left:0;
@@ -241,6 +232,9 @@ footer{
         display: block;
     }
 
+    .destaque{
+        /* justify-content: center; */
+    }
 
 
 }

@@ -5,12 +5,149 @@
 }
 
 body{
+    background-color: #131313;
+}
+
+body > section{
     display: flex;
     justify-content: center;
-    background-color: #131313;
 }
 
 .construcao{
     margin-top: 300px;
     color: #6e0b60;
+}
+
+.desktop{
+    /* background-color: red; */
+    background-color: rgba(15,15,15,.9);
+    box-shadow: 0 1px 5px rgba(0,0,0,.4);
+    border-bottom: 1px solid #000;
+    justify-content: center;
+    padding: 30px;
+    
+}
+
+.desktop > ul{
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-evenly;
+
+  
+}
+
+.desktop > ul > li{
+    list-style-type: none;
+}
+
+.desktop > ul > li > a{
+    color: #6e0b60;    
+    text-decoration: none;
+}
+
+.mobile{
+    /* background-color: red; */
+    display: none;
+    background-color: rgba(15,15,15,.9);
+    box-shadow: 0 1px 5px rgba(0,0,0,.4);
+    border-bottom: 1px solid #000;
+    justify-content: center;
+    padding: 10px;
+}
+
+.-mm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#m-p{
+    display: none;
+}
+
+.mobile-p{
+    background-color: #6e0b6131;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.mobile-p > ul{
+    cursor: pointer;
+    width: 100%;
+}
+
+.mobile-p > ul > a > li{
+    color: #6e0b60;    
+    text-decoration: none;
+}
+
+.mobile-p > ul > a{
+    color: #6e0b60;    
+    text-decoration: none;
+}
+
+.mobile-p > ul > a > li {
+    text-decoration: none;
+    list-style-type: none;
+    color: #6e0b60;    
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 0.1px solid #6e0b60;
+    text-decoration: none;
+}
+
+.mobile-p > ul > a > li:hover{
+    background-color: #5f1657a4;
+}
+
+#pesquisar{
+    height: 35px;
+    background-color: rgba(255,255,255,.1);
+    border: 0;
+    color: rgb(163, 163, 163);
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.material-symbols-outlined{
+    position: relative;
+    right: 45px;
+    top: 8px;
+    cursor: pointer;
+}
+
+
+.-m{
+    color: #6e0b60;
+    font-size: 40px;
+    position: relative;
+    top: 2px;
+}
+
+#close{
+    position: relative;
+    right: 48px;    
+    font-size: 40px;
+    top: 2px;
+    display: none;
+}
+
+.pesquisa{
+    position: relative;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+
+
 }
