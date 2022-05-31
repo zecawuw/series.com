@@ -155,6 +155,10 @@ body{
     margin-left: 26px;
 }
 
+.paginas{
+    margin-bottom: 30px;
+}
+
 .pagina{
     width: 230px;
     height: 100%;
@@ -219,8 +223,24 @@ footer{
     width: 100%;
     padding: 10px;
     font-size: 10px;
+    text-align: justify;
 }
 
+#atencao{
+    background-color: bisque;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 983px) {
+
+    .destaque{
+        justify-content: center;
+    }
+
+
+}
 
 @media screen and (max-width: 768px) {
 
@@ -232,9 +252,36 @@ footer{
         display: block;
     }
 
-    .destaque{
-        /* justify-content: center; */
+}
+
+@media screen and (max-width: 625px) {
+
+    footer > p{
+        width: 400px;
     }
 
+}
+
+@media screen and (max-width: 535px) {
+
+    footer > p{
+        width: 230px;
+    }
+
+}
+
+@media screen and (max-width: 495px) {
+
+    footer > p{
+        width: 220px;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    footer > p{
+        width: 200px;
+    }
 
 }
